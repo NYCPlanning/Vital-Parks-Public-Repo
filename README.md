@@ -2,7 +2,7 @@
 
 This repository serves as an example code base to compute travel analysis that powers the the NYC Parks [Vital Parks Explorer](https://www.nycgovparks.org/about/vital-parks/explorer). This repository does **not** include the data visualization but we hope to in the future. It encompasses:
 
-- **Data Ingestion**: Integreates park elements, walkable street data, MTA travel data, Census population data, and other relevant geospatial datasets
+- **Data Ingestion**: Integrates park elements, walkable street data, MTA travel data, Census population data, and other relevant geospatial datasets
 - **NetworkX Graph Construction**: Stitch together a walking and transit network
 - **Time Travel Analysis**: Computes travel times from park elements to the nearest network node
 

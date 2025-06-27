@@ -4,8 +4,6 @@
 #
 #    ./setup/compile_python_packages.sh setup
 #
-appnope==0.1.4
-    # via ipykernel
 asttokens==3.0.0
     # via stack-data
 attrs==25.3.0
@@ -37,11 +35,11 @@ executing==2.2.0
 fiona==1.10.1
     # via geopandas
 geopandas==0.14.3
-    # via -r setup/requirements.in
+    # via -r requirements.in
 idna==3.10
     # via requests
 ipykernel==6.29.0
-    # via -r setup/requirements.in
+    # via -r requirements.in
 ipython==9.3.0
     # via ipykernel
 ipython-pygments-lexers==1.1.1
@@ -61,10 +59,10 @@ matplotlib-inline==0.1.7
 nest-asyncio==1.6.0
     # via ipykernel
 networkx==3.3
-    # via -r setup/requirements.in
+    # via -r requirements.in
 numpy==1.26.4
     # via
-    #   -r setup/requirements.in
+    #   -r requirements.in
     #   pandas
     #   shapely
 packaging==25.0
@@ -73,7 +71,7 @@ packaging==25.0
     #   ipykernel
 pandas==2.2.2
     # via
-    #   -r setup/requirements.in
+    #   -r requirements.in
     #   geopandas
 parso==0.8.4
     # via jedi
@@ -105,13 +103,13 @@ pyzmq==27.0.0
     # via
     #   ipykernel
     #   jupyter-client
-requests==2.31.0
-    # via -r setup/requirements.in
+requests==2.32.4
+    # via -r requirements.in
 ruff==0.12.1
-    # via -r setup/requirements.in
+    # via -r requirements.in
 shapely==2.0.4
     # via
-    #   -r setup/requirements.in
+    #   -r requirements.in
     #   geopandas
 six==1.17.0
     # via python-dateutil

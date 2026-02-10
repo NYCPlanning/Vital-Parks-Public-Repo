@@ -1,4 +1,4 @@
-geopandas==0.14.3
+geopandas==1.1.2
 ipykernel==6.29
 networkx==3.3
 numpy==1.26.4
